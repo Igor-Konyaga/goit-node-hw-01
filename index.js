@@ -1,4 +1,4 @@
-const argv = require('yargs').argv;
+const argv = require("yargs").argv;
 
 const contacts = require("./contacts");
 
@@ -29,4 +29,4 @@ async function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-invokeAction(argv)
+invokeAction(argv);
